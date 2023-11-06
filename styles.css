@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serifs;   
+}
+
+.task-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #d9d9d9;
+    color: black;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+.task-form{
+    margin-top: 80px;
+    margin-left: 20px;
+    height: 10px;
+    margin-bottom: 120px;
+}
+
+.publish-button {
+    background-color: #2e59ad;
+    color: #fff; 
+    padding: 7px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.publish-button:hover {
+    background-color: #07305ce7;
+}
+
+.publicacion {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.publicacion p {
+    margin: 0;
+}
+
+.task-container {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-left: 20px;
+    border: none;
+}
+
+.cuadro {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #ccc;
+    position: relative;
+}
+
+.cuadro .close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+.cuadro .cuadro-content {
+    margin: 10px 0;
+}
+
+.cuadro button {
+    padding: 5px 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.cuadro .red-button {
+    width: 15px; 
+    height: 15px;
+    background-color: #d74f4f;
+    border: none;
+    border-radius: 3px; 
+
+}
+
+.cuadro .blue-button {
+    width: 15px; 
+    height: 15px;
+    background-color: #2e59ad;
+    border: none;
+    border-radius: 3px;
+}
+
+.todo-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
